@@ -1,5 +1,5 @@
-import { jungseong } from '../const/jamo.const';
+import { moeum } from '../const/jamo.const';
 
 export const isMoeum = (str: string) => {
-    return jungseong.includes(str);
+    return moeum.includes(str);
 };

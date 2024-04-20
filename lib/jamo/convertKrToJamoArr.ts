@@ -2,10 +2,13 @@ import { choseong, HANGEUL_UNICODE_INDEX, jongseong, jungseong } from '../const/
 import { isHangeul } from './isHangeul';
 import { isMoeum } from './isMoeum';
 import { isJaeum } from './isJaeum';
+import { isGyeopbatchim } from './isGyeopbatchim';
+import { isBokhapMoeum } from './isBokhapMoeum';
+import { isBokhapJaeum } from './isBokhapJaeum';
 
 export function convertKrToJamoArr(str: string) {
     if (!isHangeul(str)) throw new Error('한글이 아닙니다.');
-    if (isMoeum(str) || isJaeum(str)) return [str];
+    if (isMoeum(str) || isJaeum(str) || isGyeopbatchim(str) || isBokhapMoeum(str) || isBokhapJaeum(str)) return [str];
 
     let jamoArray = <string[]>[];
 
