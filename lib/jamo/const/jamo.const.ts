@@ -126,7 +126,7 @@ export const jongseong = [
 
 export const gyeopbatchim = ['ㄲ', 'ㄳ', 'ㄵ', 'ㄶ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅄ', 'ㅆ'];
 
-export const gyeopbatchimObj = {
+export const gyeopbatchimObj: { [key: string]: string[] } = {
     ㄲ: ['ㄱ', 'ㄱ'],
     ㄳ: ['ㄱ', 'ㅅ'],
     ㄵ: ['ㄴ', 'ㅈ'],
@@ -144,7 +144,7 @@ export const gyeopbatchimObj = {
 
 export const bokhapJaeum = ['ㄲ', 'ㄸ', 'ㅃ', 'ㅉ', 'ㅆ'];
 
-export const bokhapJaeumObj = {
+export const bokhapJaeumObj: { [key: string]: string[] } = {
     ㄲ: ['ㄱ', 'ㄱ'],
     ㄸ: ['ㄷ', 'ㄷ'],
     ㅃ: ['ㅂ', 'ㅂ'],
@@ -154,7 +154,7 @@ export const bokhapJaeumObj = {
 
 export const bokhapMoeum = ['ㅐ', 'ㅒ', 'ㅔ', 'ㅖ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅢ'];
 
-export const bokhapMoeumObj = {
+export const bokhapMoeumObj: { [key: string]: string[] } = {
     ㅐ: ['ㅏ', 'ㅣ'],
     ㅒ: ['ㅑ', 'ㅣ'],
     ㅔ: ['ㅓ', 'ㅣ'],

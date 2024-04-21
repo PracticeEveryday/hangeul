@@ -1,5 +1,5 @@
 import { convertKrToJamoArr } from './convertKrToJamoArr';
-import { bokhapJaeumObj, bokhapMoeumObj, gyeopbatchimObj } from '../const/jamo.const';
+import { bokhapJaeumObj, bokhapMoeumObj, gyeopbatchimObj } from './const/jamo.const';
 import { isHangeul } from './isHangeul';
 
 export function convertKrToFullJamoArr(str: string) {

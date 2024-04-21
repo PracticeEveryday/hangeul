@@ -1,0 +1,13 @@
+# npm
+node_modules/
+
+src
+lib
+.gitignore
+tsconfig.json
+
+# GIT
+.git
+.idea
+.husky
+.prettierrc

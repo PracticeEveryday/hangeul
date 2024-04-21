@@ -1,4 +1,4 @@
-import { choseong, HANGEUL_UNICODE_INDEX, jongseong, jungseong } from '../const/jamo.const';
+import { choseong, HANGEUL_UNICODE_INDEX, jongseong, jungseong } from './const/jamo.const';
 import { isHangeul } from './isHangeul';
 import { isMoeum } from './isMoeum';
 import { isJaeum } from './isJaeum';
