@@ -1,4 +1,3 @@
-export * from './isHangeul';
 export * from './isJaeum';
 export * from './isMoeum';
 export * from './disassemble';

@@ -1,6 +1,6 @@
 import { disassemble } from './disassemble';
 import { bokhapJaeumObj, bokhapMoeumObj, gyeopbatchimObj } from './const/jamo.const';
-import { isHangeul } from './isHangeul';
+import { isHangeul } from '../hanguel/isHangeul';
 
 export function disassembleAll(str: string) {
     if (!isHangeul(str)) throw new Error('한글이 아닙니다.');
