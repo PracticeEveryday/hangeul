@@ -1,5 +1,6 @@
 // 한글 유니코드 시작 지점 0xAC00
 export const HANGEUL_UNICODE_INDEX = 44032;
+export const HANGEUL_JAEUM_OFFSET = 588;
 
 export const jaeum = [
     'ㄱ',

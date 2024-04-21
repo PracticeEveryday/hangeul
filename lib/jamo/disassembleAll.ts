@@ -1,10 +1,10 @@
-import { convertKrToJamoArr } from './convertKrToJamoArr';
+import { disassemble } from './disassemble';
 import { bokhapJaeumObj, bokhapMoeumObj, gyeopbatchimObj } from './const/jamo.const';
 import { isHangeul } from './isHangeul';
 
-export function convertKrToFullJamoArr(str: string) {
+export function disassembleAll(str: string) {
     if (!isHangeul(str)) throw new Error('한글이 아닙니다.');
-    const jamoArr = convertKrToJamoArr(str);
+    const jamoArr = disassemble(str);
 
     const result = <string[]>[];
     for (let i = 0; i < jamoArr.length; i++) {
