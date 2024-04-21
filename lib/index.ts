@@ -1,1 +1,1 @@
-export { isMoeum, isJaeum, isHangeul, isBokhapJaeum, isBokhapMoeum, isGyeopbatchim, disassemble, disassemble } from './jamo';
+export { isMoeum, isJaeum, isHangeul, isBokhapJaeum, isBokhapMoeum, isGyeopbatchim, disassemble, disassembleAll } from './jamo';
