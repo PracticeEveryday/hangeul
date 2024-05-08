@@ -31,10 +31,19 @@
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
+    "jest-junit": "^16.0.0",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "jest-junit": "^16.0.0",
     "prettier": "^3.2.5"
+  },
+  "jest-junit": {
+    "outputDirectory": "reports",
+    "outputName": "jest-junit.xml",
+    "ancestorSeparator": " › ",
+    "uniqueOutputName": "false",
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}"
   }
 }
