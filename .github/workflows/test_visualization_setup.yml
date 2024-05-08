@@ -1,5 +1,7 @@
 name: 'project-test'
 on:
+  push:
+    branches: [ "main" ]
   workflow_run:
     workflows: ['commit-validate']
     types:
