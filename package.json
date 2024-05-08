@@ -33,6 +33,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "jest-junit": "^16.0.0",
     "prettier": "^3.2.5"
   }
 }
