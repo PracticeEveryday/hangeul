@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rm -rf dist/* && tsup lib/index.ts --format cjs,esm --dts --clean",
     "test": "jest",
-    "test:report": " --ci --reporters=default --reporters=jest-junit",
+    "test:report": "jest --ci --reporters=default --reporters=jest-junit",
     "ts-node": "ts-node",
     "prepare": "yarn build"
   },
